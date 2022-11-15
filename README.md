@@ -2,19 +2,20 @@
 
 ## Description
 
-
+This is back end code for an e-commerce site which allows the user to make get, post, put, and delete requests in order to view, create new, update, and delete products, categories, and tags.
 
 ## Installation
 
-This application requires node.js and MySQL Server. Open the main folder containing "index.js" of the application in a terminal and enter "npm install".
+This application requires node.js and MySQL Server. Open the main folder containing "server.js" of the application in a terminal and enter "npm install".
 
 ## Usage
 
-Open a MySQL shell in the "db" folder and enter "source schema.sql" create the "employees_db" database. This will also drop any existing database with that name. To seed the database with sample data, enter "source seeds.sql". Open the main folder containing "index.js" in a terminal and enter "node index" and then select whether to view a table, add to a table, or update an entry. Enter any data the prompt asks for. The application may need to be exited and restarted in order to view newly entered data. 
+Open a MySQL shell in the "db" folder and enter "source schema.sql" in order to create the "ecommerce_db" database. This will also drop any existing database with that name. Create a .env file and add your MySQL username and password and the name of the database, as shown below. Open the main folder containing "server.js" in a terminal and enter "npm run seed" to seed the database. Make HTTP requests using the routes in the routes/api folder.
 
-https://github.com/BrendanShelton/employee-tracker
+https://github.com/BrendanShelton/e-commerce-back-end
 
-![screenshot of application](screenshot.PNG)
+![screenshot of .env file](screenshot.PNG)
+![screenshot of prouct get request on Insomnia](screenshot2.PNG)
 
 ## Credits
 
