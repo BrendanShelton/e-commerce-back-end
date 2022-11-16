@@ -14,6 +14,8 @@ Open a MySQL shell in the "db" folder and enter "source schema.sql" in order to 
 
 https://github.com/BrendanShelton/e-commerce-back-end
 
+https://app.castify.com/view/5ac896ed-037c-4f40-91eb-1f44cd74936f
+
 ![screenshot of .env file](screenshot.PNG)
 ![screenshot of prouct get request on Insomnia](screenshot2.PNG)
 
