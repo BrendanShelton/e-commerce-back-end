@@ -21,7 +21,7 @@ https://app.castify.com/view/5ac896ed-037c-4f40-91eb-1f44cd74936f
 
 ## Credits
 
-N/A
+This application is based on starter code provided for an assignment for the University of Richmond coding bootcamp.
 
 ## License
 
