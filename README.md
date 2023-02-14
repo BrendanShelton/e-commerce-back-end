@@ -10,7 +10,7 @@ This application requires node.js and MySQL Server. Clone this repository by ope
 
 ## Usage
 
-Open a MySQL shell in the "db" folder and enter "source schema.sql" in order to create the "ecommerce_db" database. This will also drop any existing database with that name. Create a .env file in the main folder and add your MySQL username and password and the name of the database, as shown below. Open the main folder containing "server.js" in a terminal and enter "npm run seed" to seed the database. Make HTTP requests using the routes in the routes/api folder.
+Open a MySQL shell in the "db" folder and enter "source schema.sql" in order to create the "ecommerce_db" database. This will also drop any existing database with that name. Create a .env file in the main folder and add your MySQL username and password and the name of the database, as shown below. Open the main folder containing "server.js" in a terminal and enter "npm run seed" to seed the database. Start the application by entering "npm start" Make HTTP requests using the routes in the routes/api folder using an application such as Insomnia.
 
 https://github.com/BrendanShelton/e-commerce-back-end
 
