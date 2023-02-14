@@ -6,11 +6,11 @@ This is back end code for an e-commerce site which allows the user to make get, 
 
 ## Installation
 
-This application requires node.js and MySQL Server. Clone this repository by opening a terminal in the folder which will hold it and enter "git clone https://github.com/BrendanShelton/e-commerce-back-end.git". Open the main folder containing "server.js" of the application in a terminal and enter "npm install".
+This application requires node.js and MySQL Server. Clone this repository by opening a terminal in the folder which will hold it and enter "git clone https://github.com/BrendanShelton/e-commerce-back-end.git". Install dependencies by opening the main folder containing "server.js" of the application in a terminal and enter "npm install".
 
 ## Usage
 
-Open a MySQL shell in the "db" folder and enter "source schema.sql" in order to create the "ecommerce_db" database. This will also drop any existing database with that name. Create a .env file and add your MySQL username and password and the name of the database, as shown below. Open the main folder containing "server.js" in a terminal and enter "npm run seed" to seed the database. Make HTTP requests using the routes in the routes/api folder.
+Open a MySQL shell in the "db" folder and enter "source schema.sql" in order to create the "ecommerce_db" database. This will also drop any existing database with that name. Create a .env file in the main folder and add your MySQL username and password and the name of the database, as shown below. Open the main folder containing "server.js" in a terminal and enter "npm run seed" to seed the database. Make HTTP requests using the routes in the routes/api folder.
 
 https://github.com/BrendanShelton/e-commerce-back-end
 
