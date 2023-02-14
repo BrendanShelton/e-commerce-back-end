@@ -6,7 +6,7 @@ This is back end code for an e-commerce site which allows the user to make get, 
 
 ## Installation
 
-This application requires node.js and MySQL Server. Open the main folder containing "server.js" of the application in a terminal and enter "npm install".
+This application requires node.js and MySQL Server. Clone this repository by opening a terminal in the folder which will hold it and enter "git clone https://github.com/BrendanShelton/e-commerce-back-end.git". Open the main folder containing "server.js" of the application in a terminal and enter "npm install".
 
 ## Usage
 
